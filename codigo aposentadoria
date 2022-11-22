@@ -1,0 +1,8 @@
+idade=int(input("Digite a sua idade:"))
+tempotrabalho=int(input("Quanto tempo você tem de trabalho:"))
+if idade>=55 and tempotrabalho>=30:
+    print ("Você tem direito à aposentadoria.")
+elif idade <55: 
+    print ("Você não tem idade para se aposentar")
+elif idade-55 or tempotrabalho<30: 
+    print("Você não tem direito a aposentadoria")
